@@ -1,3 +1,10 @@
+<a name="1.0.2"></a>
+## 1.0.2 (2017-02-20)
+
+* Fix page size ([52ba17a](https://github.com/kikobeats/easysurfshop-api/commit/52ba17a))
+
+
+
 <a name="1.0.1"></a>
 ## 1.0.1 (2017-02-19)
 
