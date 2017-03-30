@@ -1,3 +1,10 @@
+<a name="1.0.3"></a>
+## 1.0.3 (2017-03-30)
+
+* Fix non items ([8e78548](https://github.com/kikobeats/easysurfshop-api/commit/8e78548))
+
+
+
 <a name="1.0.2"></a>
 ## 1.0.2 (2017-02-20)
 
