@@ -25,24 +25,24 @@ describe('easysurfshop-api', function () {
     stream.on('error', done)
 
     stream.on('end', function () {
-      (count > 1).should.be.true()
+      should(count > 1).be.true()
 
       buffer.forEach(item => {
         describe(`${item.title}`, function () {
-          item.should.be.an.Object()
+          should(item).be.an.Object()
 
           describe('url', function () {
             ;[
               'link',
               'image'
             ].forEach(function (prop) {
-              it(prop, () => isAbsoluteUrl(item[prop]).should.be.true())
+              it(prop, () => should(isAbsoluteUrl(item[prop])).be.true())
             })
           })
 
           describe('rest of props', function () {
-            it('name', () => item.name.should.be.an.String())
-            it('price', () => item.price.should.be.a.Number())
+            it('name', () => should(item.name).be.an.String())
+            it('price', () => should(item.price).be.a.Number())
           })
         })
       })
