@@ -1,7 +1,7 @@
 'use strict'
 
 const isAbsoluteUrl = require('is-absolute-url')
-require('should')
+const should = require('should')
 
 const createClient = require('..')
 const env = process.env.NODE_ENV || 'development'
