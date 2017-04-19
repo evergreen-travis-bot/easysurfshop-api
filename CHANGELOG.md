@@ -1,3 +1,12 @@
+<a name="1.0.4"></a>
+## 1.0.4 (2017-04-19)
+
+* Fix should reference ([4b0f4f2](https://github.com/kikobeats/easysurfshop-api/commit/4b0f4f2))
+* Tests refactor ([4d71ef5](https://github.com/kikobeats/easysurfshop-api/commit/4d71ef5))
+* Update travis builds ([0d2da28](https://github.com/kikobeats/easysurfshop-api/commit/0d2da28))
+
+
+
 <a name="1.0.3"></a>
 ## 1.0.3 (2017-03-30)
 
