@@ -2,7 +2,7 @@
   "name": "easysurfshop-api",
   "description": "Programatic API access for easy-surfshop.com",
   "homepage": "https://github.com/Kikobeats/easysurfshop-api",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "lib",
   "author": {
     "email": "josefrancisco.verdu@gmail.com",
